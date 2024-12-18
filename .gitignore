@@ -1,0 +1,39 @@
+# Ignore all files by default
+*
+
+# Unreal Engine specific ignores
+Saved/
+Intermediate/
+Binaries/
+Build/
+DerivedDataCache/
+*.sln
+*.vcxproj
+*.suo
+*.opensdf
+*.sdf
+*.user
+*.userprefs
+*.log
+*.ini
+*.pdb
+*.modules
+*.ilk
+
+# Include the .uproject file
+!*.uproject
+
+# Include config files
+!Config/
+Config/*
+!Config/Default*.ini
+
+# Include Source folder
+!Source/
+
+# Include Plugins folder
+!Plugins/
+
+# Include .gitignore and .gitattributes
+!.gitignore
+!.gitattributes

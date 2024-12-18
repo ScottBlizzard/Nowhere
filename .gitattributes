@@ -1,0 +1,8 @@
+# Mark binary files
+*.uasset binary
+*.umap binary
+*.fbx binary
+*.png binary
+*.jpg binary
+*.wav binary
+*.mp3 binary
